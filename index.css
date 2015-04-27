@@ -1,0 +1,18 @@
+p {
+  text-align: center;
+}
+body {
+  background: #f00;
+}
+p {
+  font-family: arial;
+}
+p a {
+  color: #00f;
+}
+p a.sublinhado {
+  text-decoration: underline;
+}
+p a:hover {
+  background: #000;
+}

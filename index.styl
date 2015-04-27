@@ -1,0 +1,25 @@
+cor-de-fundo = red
+$alinhamento-conteudo {
+text-align center 
+}
+
+
+body{
+	background cor-de-fundo
+	}
+	
+p{
+	@extends $alinhamento-conteudo
+	font-family arial 
+	a {
+		color blue
+		&.sublinhado {
+			text-decoration underline
+		}
+		&:hover{
+			background #000
+			
+
+		}
+	}
+}
